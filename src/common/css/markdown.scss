@@ -1,0 +1,61 @@
+// markdown 的样式
+
+// 引用
+blockquote {
+  margin: 24px 0;
+  padding-left: 24px;
+  border-left: 8px solid #B4B4B4;
+  background: $grey100;
+}
+
+p {
+  padding: 12px 0;
+}
+
+li {
+  padding-top: 16px;
+}
+
+// 图片
+img {
+  display: block;
+  width: auto;
+  max-width: 100%; // 防止图片撑开div
+  margin-bottom: 24px;
+}
+
+/*------------代码--------------*/
+
+// 块状代码
+pre {
+  padding: 24px;
+  background: $blueGrey50;
+  border: 1px solid $grey500;
+  border-radius: 4px;
+}
+
+// 行内代码
+code {
+  padding-left: 8px;
+  padding-right: 8px;
+  color: $brown400;
+  background: $blueGrey50;
+  border-radius: 4px;
+}
+
+/*------------代码 end --------------*/
+
+/*------------表格--------------*/
+
+table {
+  border-left: 1px solid $grey500;
+  border-top: 1px solid $grey500;
+}
+
+th, td {
+  padding: 12px;
+  border-right: 1px solid $grey500;
+  border-bottom: 1px solid $grey500;
+}
+
+/*------------表格 end --------------*/
